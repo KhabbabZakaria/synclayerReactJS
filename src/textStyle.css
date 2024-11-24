@@ -1,0 +1,53 @@
+/* Base font size for small screens (default for .headerFont) */
+.headerFont {
+    font-size: 1.6rem;
+}
+
+/* Medium screens (tablets, 600px and up) */
+@media (min-width: 600px) {
+    .headerFont {
+        font-size: 2rem;
+    }
+}
+
+/* Large screens (desktops, 960px and up) */
+@media (min-width: 960px) {
+    .headerFont {
+        font-size: 2.5rem;
+    }
+}
+
+/* Extra large screens (1200px and up) */
+@media (min-width: 1200px) {
+    .headerFont {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+/* Base font size for small screens (default for .headerFont) */
+.textFont {
+    font-size: 1.1rem;
+}
+
+/* Medium screens (tablets, 600px and up) */
+@media (min-width: 600px) {
+    .textFont {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large screens (desktops, 960px and up) */
+@media (min-width: 960px) {
+    .textFont {
+        font-size: 1.3rem;
+    }
+}
+
+/* Extra large screens (1200px and up) */
+@media (min-width: 1200px) {
+    .textFont {
+        font-size: 1.4rem;
+    }
+}
